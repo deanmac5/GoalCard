@@ -5,6 +5,8 @@ class Goal {
     String name
     String description
     Date created = new Date()
+    boolean completed
+    Date whenCompleted
 
     static belongsTo = [user: User]
 
